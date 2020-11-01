@@ -134,7 +134,8 @@ export default class GameScreen extends Component {
         const { playerScore, questionNum, question, gameOver, playerWon} = this.state;
         return (
             <div>
-                <h1> { !gameOver && <QuestionFormat 
+                <h1>Score: {playerScore}</h1>
+                <div className="question-container"> { !gameOver && <QuestionFormat 
                                     question={question}
                                     questionNum={questionNum}
                                     playerScore={playerScore}
@@ -142,7 +143,7 @@ export default class GameScreen extends Component {
                                     revertQuestion={this.revertQuestion} 
                                     nextQuestion={this.nextQuestion}
                                     />} 
-                </h1>
+                </div>
                 <div>
                     {gameOver && (playerWon ? <GameWinScreen playerScore={playerScore}/> : <GameLoseScreen playerScore={playerScore}/>)}
                 </div>

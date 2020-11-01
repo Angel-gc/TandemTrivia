@@ -1,13 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 
-class LandingPage extends React.Component {
-
-    state={}
-    method =()=>{
-
-    }
-    render (){
+const LandingPage = () => {
         return(
             <div className="landing-page">
                 <div className="trivia-wrapper"><img alt="background-img1" src="/triviaNight.jpeg" className="trivia-Night"/></div>
@@ -27,7 +21,5 @@ class LandingPage extends React.Component {
             </div>
         )
     }
-}
-
 
 export default LandingPage;

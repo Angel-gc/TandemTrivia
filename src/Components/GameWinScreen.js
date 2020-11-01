@@ -6,7 +6,7 @@ const GameWinScreen = (props) => {
         <h1>
           Score: {props.playerScore}/ 210
         </h1>
-        you win! good job
+        You win! good job
       </div>
     )
   }

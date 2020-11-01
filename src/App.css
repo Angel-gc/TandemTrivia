@@ -19,6 +19,91 @@
 	border: solid 2px fuchsia;
 	border-radius: 4px;
 }
+.question-number {
+	display: flex;
+	justify-self: flex-start;
+	align-self: flex-start;
+	padding-left: 20px;
+	font-size: 30px;
+}
+.current-question {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.answer-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 125px;
+	justify-content: center;
+	align-items: center;
+}
+
+.answer-button {
+	margin: 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: fit-content;
+	border: 3px solid darkslategray;
+	border-radius: 8px;
+	font-size: medium;
+	padding: 10px;
+	margin: 10px;
+	justify-content: center;
+	min-width: 100px;
+	max-width: 125px;
+}
+
+.question-wrapper {
+	display: flex;
+	flex-direction: column;
+	border: 3px solid darkgray;
+	border-radius: 4px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: larger;
+	width: 45em;
+	height: 30em;
+	background-color: gray;
+	align-items: center;
+}
+
+button {
+	display: flex;
+	width: 75px;
+	padding: 8px;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 6px;
+}
+
+.prev {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid blue;
+}
+
+.next {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid blue;
+}
+
+.nav-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-end;
+	justify-self: flex-end;
+	margin-top: 100px;
+	width: 100%;
+	justify-content: space-around;
+}
 
 .App-logo {
 	height: 40vmin;

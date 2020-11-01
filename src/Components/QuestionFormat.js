@@ -1,37 +1,35 @@
 import React from 'react'
 
 const QuestionFormat = (props) =>{
-    const {questionNum, question, playerScore} = props;
+    const {questionNum, question} = props;
     const currentQ = question[questionNum];
     console.log(currentQ)
   return (
-      <div>
-        <h1>Score: {playerScore}</h1>
-        <h3>Q.{questionNum+1} </h3>
+      <div className="question-wrapper">
+        <h3 className="question-number">Q.{questionNum+1} / 21</h3>
         <div className= "question_content">
-          <h5>
+          <h5 className="current-question">
             {currentQ.question}
           </h5>
         </div>
-        <div className = "answer_list">
+        <div className = "answer-list">
           {currentQ.answerList.map((ans, i)=>(
             <div key={i}> 
-            <button className="answer_button"
+            <button className="answer-button"
                     id={i}
-                    style={{background: +currentQ.selectedAnswerID === i ? currentQ.color : "aqua"}}
+                    style={{background: +currentQ.selectedAnswerID === i ? currentQ.color : "white"}}
                     onClick={props.checkAnswer}
             >{ans}</button> 
             </div>
           ))}
         </div>
-        <div>
+        <div className="nav-wrapper">
           <button onClick={props.revertQuestion}>
-            Previous Question
+            <div className="prev"/> Prev
           </button>
-        </div>
-        <div>
-        <button onClick={props.nextQuestion}>
-            Next Question
+
+          <button onClick={props.nextQuestion}>
+          <div className="next"/> Next
           </button>
         </div>
     </div>
