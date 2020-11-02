@@ -1,4 +1,4 @@
-Welcome to Tandem Trivia!
+Welcome to Tandem Trivia! 🎉🎉🎉🎉🎉🎉
 
 # Criteria -
 
