@@ -8,12 +8,11 @@ Welcome to Tandem Trivia!
 - The correct answer is revealed after a user has submitted their answer. A user can see the score they received at the end of the game.
 - Users can go back and forth between questions to review their answers but aren't able to change their answers.
 
-# Additional features to be implemented -
+# Additional considerable features to be implemented -
 
-- Trivia game is split into rounds of 10 questions.
-- Users can see their score at the end of each round.
-- Users are presented with amazing styled components whether they win or lose the trivia round/game.
-- Add unit tests and automated test coverage for quality code.
+- Add backend database to keep question data locked and sealed. 🤫
+- Users are presented with amazing styled components whether they win or lose the trivia round/game. 🎭
+- Add unit tests and automated test coverage for quality code. ✅
 
 # To get this trivia project up and running you can run the following commands in your terminal, one after the other.
 
