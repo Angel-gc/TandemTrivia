@@ -6,7 +6,7 @@ const QuestionFormat = (props) =>{
     console.log(currentQ)
   return (
       <div className="question-wrapper">
-        <h3 className="question-number">Q.{questionNum+1} / 21</h3>
+        <h3 className="question-number">{questionNum < 10 ? `Round 1: Q.${questionNum+1}/10` : `Round 2: Q.${questionNum+1}/21`}</h3>
         <div className= "question_content">
           <h5 className="current-question">
             {currentQ.question}

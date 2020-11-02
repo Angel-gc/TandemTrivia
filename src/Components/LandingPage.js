@@ -11,8 +11,7 @@ const LandingPage = () => {
                             <h6 className="instructions">
                                 Hi, Welcome to trivia 
                                 night where we let you answer some 
-                                deep questions about topics from all areas of life. 
-                                Each quesion is worth 10 points. But carefull!! Wrong
+                                deep questions about topics from all areas of life. There are two rounds with 10 questions each worth 10 points and one extra credit question at the end. But careful! Wrong
                                 answers are minus 5 points. Happy guessing!
                             </h6>
                             <Link className="lets_play" to='/trivia'> Lets Play! </Link>
