@@ -1,3 +1,34 @@
+Welcome to Tandem Trivia!
+
+# Criteria -
+
+- A user can view questions.
+- Questions with their multiple choice options must be displayed one at a time. Questions do not repeat in a round.
+- A user can select only 1 answer out of the 4 possible answers.
+- The correct answer is revealed after a user has submitted their answer. A user can see the score they received at the end of the game.
+- Users can go back and forth between questions to review their answers but aren't able to change their answers.
+
+# Additional features to be implemented -
+
+- Trivia game is split into rounds of 10 questions.
+- Users can see their score at the end of each round.
+- Users are presented with amazing styled components whether they win or lose the trivia round/game.
+- Add unit tests and automated test coverage for quality code.
+
+# To get this trivia project up and running you can run the following commands in your terminal, one after the other.
+
+git clone npm install npm start
+
+# Tech implemented -
+
+- React.js
+
+# Developers -
+
+- Angel Concepcion
+
+Below is the README section provided by the Create React App module.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
